@@ -27,14 +27,26 @@
         handleMouseHover(){
             console.log("handled Mouse Hover");
         }
-        handleClick(e){
+        handleClick=(e)=>{
             console.log("handled Mouse click");
             console.log(e.pageX, e.pageY);
+            this.setState({
+                name: 'REACT TEST'
+            });
         }
         handlePrint=(e)=>{
-            console.log(this.obj);
+            console.log(this.state);
         }
 
+        handleChange= (e) => {
+            //console.log(e.target.value);
+            this.setState({
+                name:e.target.value
+            });
+        }
+        handleSubmit = (e) => {
+            e.preventDefault();
+        }
         render(){
             return (
                 <div>
@@ -45,6 +57,14 @@
                     <button onMouseOver={this.handleMouseHover}
                             onClick={this.handleClick}>Click Me</button>
                             <button onClick={this.handlePrint}>Print State</button>
+                    <br/>
+                    
+                    <form onSubmit={this.handleSubmit}>
+                        <input type="text" onChange={this.handleChange} />
+                        <button>submit</button>
+                        <br/>
+                        Welcome {this.state.name}
+                    </form>
                 </div>
             )
         }
