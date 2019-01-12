@@ -2,19 +2,27 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 //import './App.css';
 import Employees from './Employees';
+import Emp from './UIComponent';
+import NewEmp from './AddEmp';
 
-class App extends Component {
+ class App extends Component {
+//   state = {
+//     emp1:{name:'John',age:'45',city:'Sanfransisco'},
+//     emp2:{name:'Norm',age:'52',city:'Dallas'}
+//   };
+
   state = {
-    emp1:{name:'John',age:'45',city:'Sanfransisco'},
-    emp2:{name:'Norm',age:'52',city:'Dallas'}
+    employees:[
+                {name:'John',age:'45',city:'Sanfransisco',id:''},
+                {name:'Norm',age:'52',city:'Dallas',id:''}
+              ]
   };
 
-  // state = {
-  //   employees:[
-  //               {name:'John',age:'45',city:'Sanfransisco'},
-  //               {name:'Norm',age:'52',city:'Dallas'}
-  //             ]
-  // };
+  addEmployee = (e, name, age, city)=>{
+    e.preventDefault();
+    console.log(name, age, city);
+  }
+
   render() {
     return (
       <div className="App">
@@ -22,8 +30,9 @@ class App extends Component {
           This is a sample React app
         </p>
         <div>-----------------------------------------------------</div>
-        <Employees employee={this.state.emp1} ></Employees>
-        <Employees employee={this.state.emp2} ></Employees>
+        <Employees employees={this.state.employees} ></Employees>
+        <Emp employees={this.state.employees}></Emp>
+        <NewEmp addEmployee={this.addEmployee}></NewEmp>
       </div>
     );
   }
