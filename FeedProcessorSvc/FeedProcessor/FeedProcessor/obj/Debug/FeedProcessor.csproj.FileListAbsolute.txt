@@ -1,0 +1,11 @@
+C:\Users\saira_000\Desktop\WebApi_Handson\FeedProcessorSvc\FeedProcessor\FeedProcessor\bin\Debug\FeedProcessor.exe.config
+C:\Users\saira_000\Desktop\WebApi_Handson\FeedProcessorSvc\FeedProcessor\FeedProcessor\bin\Debug\FeedProcessor.exe
+C:\Users\saira_000\Desktop\WebApi_Handson\FeedProcessorSvc\FeedProcessor\FeedProcessor\bin\Debug\FeedProcessor.pdb
+C:\Users\saira_000\Desktop\WebApi_Handson\FeedProcessorSvc\FeedProcessor\FeedProcessor\obj\Debug\FeedProcessor.csprojAssemblyReference.cache
+C:\Users\saira_000\Desktop\WebApi_Handson\FeedProcessorSvc\FeedProcessor\FeedProcessor\obj\Debug\FeedProcessor.csproj.CoreCompileInputs.cache
+C:\Users\saira_000\Desktop\WebApi_Handson\FeedProcessorSvc\FeedProcessor\FeedProcessor\obj\Debug\FeedProcessor.exe
+C:\Users\saira_000\Desktop\WebApi_Handson\FeedProcessorSvc\FeedProcessor\FeedProcessor\obj\Debug\FeedProcessor.pdb
+C:\Users\saira_000\Desktop\WebApi_Handson\FeedProcessorSvc\FeedProcessor\FeedProcessor\bin\Debug\Newtonsoft.Json.dll
+C:\Users\saira_000\Desktop\WebApi_Handson\FeedProcessorSvc\FeedProcessor\FeedProcessor\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\saira_000\Desktop\WebApi_Handson\FeedProcessorSvc\FeedProcessor\FeedProcessor\bin\Debug\Newtonsoft.Json.xml
+C:\Users\saira_000\Desktop\WebApi_Handson\FeedProcessorSvc\FeedProcessor\FeedProcessor\obj\Debug\FeedProcessor.csproj.CopyComplete
